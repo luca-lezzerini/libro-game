@@ -4,13 +4,16 @@ import { BoscoComponent } from './bosco/bosco.component';
 import { FuoriDalCastelloComponent } from './fuori-dal-castello/fuori-dal-castello.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FiumeComponent } from './fiume/fiume.component';
 
 const routes: Routes = [
   { path:'fuori-dal-castello', component: FuoriDalCastelloComponent},
   { path:'vai-al-bosco', component: BoscoComponent},
   { path:'entra-nel-castello', component: DentroCastelloComponent},
   { path:'caverna', component: CavernaComponent},
+  { path:'fiume', component: FiumeComponent},
   { path: '',   redirectTo: '/fuori-dal-castello', pathMatch: 'full' },
+
 ];
 
 @NgModule({

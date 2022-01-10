@@ -7,6 +7,7 @@ import { FuoriDalCastelloComponent } from './fuori-dal-castello/fuori-dal-castel
 import { BoscoComponent } from './bosco/bosco.component';
 import { DentroCastelloComponent } from './dentro-castello/dentro-castello.component';
 import { CavernaComponent } from './caverna/caverna.component';
+import { FiumeComponent } from './fiume/fiume.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CavernaComponent } from './caverna/caverna.component';
     FuoriDalCastelloComponent,
     BoscoComponent,
     DentroCastelloComponent,
-    CavernaComponent
+    CavernaComponent,
+    FiumeComponent
   ],
   imports: [
     BrowserModule,
