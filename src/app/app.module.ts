@@ -8,6 +8,12 @@ import { BoscoComponent } from './bosco/bosco.component';
 import { DentroCastelloComponent } from './dentro-castello/dentro-castello.component';
 import { CavernaComponent } from './caverna/caverna.component';
 import { FiumeComponent } from './fiume/fiume.component';
+import { TorreComponent } from './torre/torre.component';
+import { ArmeriaComponent } from './armeria/armeria.component';
+import { SegreteComponent } from './segrete/segrete.component';
+import { DragoComponent } from './drago/drago.component';
+import { PterodattiloComponent } from './pterodattilo/pterodattilo.component';
+import { TesoroComponent } from './tesoro/tesoro.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { FiumeComponent } from './fiume/fiume.component';
     BoscoComponent,
     DentroCastelloComponent,
     CavernaComponent,
-    FiumeComponent
+    FiumeComponent,
+    TorreComponent,
+    ArmeriaComponent,
+    SegreteComponent,
+    DragoComponent,
+    PterodattiloComponent,
+    TesoroComponent,
   ],
   imports: [
     BrowserModule,
